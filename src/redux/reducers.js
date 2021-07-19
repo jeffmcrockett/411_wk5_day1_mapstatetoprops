@@ -1,7 +1,6 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 
-const user = (state = null) => state
+const user = (state = null) => state;
+const cars = (state = []) => state;
 
-const cars = (state = []) => state
-
-export default combineReducers({ user, cars })
+export default combineReducers({ user, cars });
